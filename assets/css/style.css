@@ -6,8 +6,17 @@ header.cabecera {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 1rem 10%;
     align-items: center;
+}
+
+.cabecera__container {
+    display: flex;
+    align-items: center;
+}
+
+img.cabecera__imagen {
+    margin-right: 2rem;
 }
 
 .cabecera__input{
@@ -15,6 +24,11 @@ header.cabecera {
     border-radius: 20px;
     height: 2rem;
     width: 250px;
+}
+
+.cabecera__lupa{
+    position: relative;
+    right: 35px;
 }
 
 .cabecera__boton{
@@ -26,6 +40,7 @@ header.cabecera {
     background: #2a7ae4;
     border: none;
     color: white;
+    height: 3rem;
     text-align: center;
 }
 
@@ -49,12 +64,14 @@ header.cabecera {
 .menu__texto{
     font-size: 22px;
     margin-left: 10%;
+    margin-top: 0.5rem;
 }
 
 .menu__boton{
     width: 129px;
     height: 51px;
     margin-left: 10%;
+    margin-top: 1rem;
 }
 
 
@@ -62,6 +79,12 @@ header.cabecera {
 
 .starWars, .consolas, .diversos{
     padding: 0 10%
+}
+
+.starWars a, .consolas a, .diversos a{
+    color: #2A7AE4;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .starWars__titulo, .consolas__titulo, .diversos__titulo{
@@ -77,6 +100,11 @@ header.cabecera {
     font-weight: 600;
 }
 
+.starWars__titulo a, .consolas__titulo a, .diversos__titulo a{
+    display: flex;
+    align-items: center;
+}
+
 .starWars__productos, .consolas__productos, .diversos__productos{
     display: flex;
     gap: 10px;
@@ -85,38 +113,72 @@ header.cabecera {
     justify-content: space-between;
 }
 
+.productos__box p{
+    font-weight: 900;
+    padding: 0.25rem 0 0.75rem 0;
+}
+
 .sobre{
-    align-items: center;
+    align-items: flex-start;
+    background: #EAF2FD;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 2rem;
-    padding: 0 10%;
+    padding: 2rem 10%;
 }
 
 .sobre__lista {
     display: flex;
     flex-direction: column;
+    padding: 1rem 0 0 0;
 }
 
 .sobre__lista ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 1.5rem;
+}
+
+.sobre__lista a{
+    color: #464646;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 .sobre__formulario{
     display: flex;
     flex-direction: column;
+    gap: 0.7rem;
+    width: 30vw;
 }
 
 .sobre__formulario form{
     display: flex;
     flex-direction: column;
+    gap: 0.7rem;
+}
+
+.formulario__form input{
+    height: 56px;
+}
+
+.formulario__form textarea{
+    height: 82px;
+    resize: none;
+}
+
+.form__boton{
+    width: 25%;
+}
+
+.formulario__texto{
+    color: #464646;
+    font-weight: 900;
 }
 
 .footer{
     text-align: center;
-    padding: 0 10%
+    padding: 1.5rem 10%
 }
