@@ -1,0 +1,122 @@
+body{
+    font-family: Raleway;
+}
+
+header.cabecera {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.cabecera__input{
+    background: #f5f5f5;
+    border-radius: 20px;
+    height: 2rem;
+    width: 250px;
+}
+
+.cabecera__boton{
+    height: 3rem;
+    width: 200px;
+}
+
+.boton{
+    background: #2a7ae4;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.menu{
+    background: url(../img/Hero.png) center;
+    min-height: 300px;
+    min-width: 100%;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}
+
+.menu__titulo{
+    font-size: 52px;
+    margin: 0;
+    margin-left: 10%;
+}
+
+.menu__texto{
+    font-size: 22px;
+    margin-left: 10%;
+}
+
+.menu__boton{
+    width: 129px;
+    height: 51px;
+    margin-left: 10%;
+}
+
+
+/* Sección StarWars */
+
+.starWars, .consolas, .diversos{
+    padding: 0 10%
+}
+
+.starWars__titulo, .consolas__titulo, .diversos__titulo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0 1rem 0;
+}
+
+.starWars__titulo h2, .consolas__titulo h2, .diversos__titulo h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.starWars__productos, .consolas__productos, .diversos__productos{
+    display: flex;
+    gap: 10px;
+    min-width: 87%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sobre{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 10%;
+}
+
+.sobre__lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__lista ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.sobre__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__formulario form{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    text-align: center;
+    padding: 0 10%
+}

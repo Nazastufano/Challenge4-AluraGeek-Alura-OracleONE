@@ -4,152 +4,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
     <title>AluraGeek</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="#" alt="AluraGeek">
-            <input type="text" placeholder="¿Qué deseas buscar?">
-            <button>Login</button>
+    <header class="cabecera">
+        <div class="cabecera__container">
+            <img class="cabecera__imagen" src="#" alt="AluraGeek">
+            <input class="cabecera__input" type="text" placeholder="¿Qué deseas buscar?">
         </div>
+        <button class="boton cabecera__boton">Login</button>
     </header>
     <main>
         <section class="menu">
-            <h1>Febrero Promocional</h1>
-            <p>Productos seleccionados con 33% de descuento</p>
-            <button>Ver Consolas</button>
+            <h1 class="menu__titulo">Febrero Promocional</h1>
+            <p class="menu__texto">Productos seleccionados con 33% de descuento</p>
+            <button class="boton menu__boton">Ver Consolas</button>
         </section>
         <section class="starWars">
-            <h2>Star Wars</h2>
-            <a href="#">Ver todo<img src="" alt="Flecha"></a>
-            <ul>
-                <li>
-                    <img src="#" alt="Producto">
+            <div class="starWars__titulo">
+                <h2>Star Wars</h2>
+                <a href="#">Ver todo<img src="" alt="Flecha"></a>
+            </div>
+            <div class="starWars__productos">
+                <div class="productos__box">
+                    <img src="./assets/img/Tasa_Casco.png" alt="Producto">
                     <p>Producto XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Cascos_Lego.png" alt="Producto">
                     <p>Producto XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Figura_Yoda.png" alt="Producto">
                     <p>Producto XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Figura_Clon.png" alt="Producto">
                     <p>Producto XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Mini_Yoda.png" alt="Producto">
                     <p>Producto XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Figura_Kylo_Ren.png" alt="Producto">
                     <p>Producto XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
         <section class="consolas">
-            <h2>Consolas</h2>
-            <a href="#">Ver todo<img src="" alt="Flecha"></a>
-            <ul>
-                <li>
-                    <img src="#" alt="Producto">
+            <div class="consolas__titulo">
+                <h2>Consolas</h2>
+                <a href="#">Ver todo<img src="" alt="Flecha"></a>
+            </div>
+            <div class="consolas__productos">
+                <div class="productos__box">
+                    <img src="./assets/img/Joystick_XBox.png" alt="Producto">
                     <p>Control XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Consol_PS5.png" alt="Producto">
                     <p>Control y consola XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Consola_NitendoNES.png" alt="Producto">
                     <p>Consola XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Joystick_Switch.png" alt="Producto">
                     <p>Control XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Consola_XboxSX.png" alt="Producto">
                     <p>Consola XYZ</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Game_Boy_Color.png" alt="Producto">
                     <p>Game Boy Color</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
         <section class="diversos">
-            <h2>Diversos</h2>
-            <a href="#">Ver todo<img src="" alt="Flecha"></a>
-            <ul>
-                <li>
-                    <img src="#" alt="Producto">
+            <div class="diversos__titulo">
+                <h2>Diversos</h2>
+                <a href="#">Ver todo<img src="" alt="Flecha"></a>
+            </div>
+            <div class="diversos__productos">
+                <div class="productos__box">
+                    <img src="./assets/img/Camiseta_Atari.png" alt="Producto">
                     <p>Camiseta Atari</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Camiseta_SNES.png" alt="Producto">
                     <p>Camiseta SNES</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Figura_Sonic.png" alt="Producto">
                     <p>Figura de Sonic</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Reloj.png" alt="Producto">
                     <p>Reloj</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Casco_VR.png" alt="Producto">
                     <p>Casco de VR</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-                <li>
-                    <img src="#" alt="Producto">
+                </div>
+                <div class="productos__box">
+                    <img src="./assets/img/Traje_Pikachu.png" alt="Producto">
                     <p>Traje Pikachu</p>
                     <p>$60,00</p>
                     <a href="">Ver producto</a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
         <section class="sobre">
             <img src="" alt="">
-            <div>
+            <div class="sobre__lista">
                 <ul>
                     <li><a href="">Quienes somos</a></li>
                     <li><a href="">Politica de Privacidad</a></li>
@@ -159,18 +167,17 @@
                     <li><a href="">Anúncie aquí</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="sobre__formulario">
                 <p>Hable con nosotros</p>
                 <form action="">
                     <input type="text" placeholder="Nombre">
                     <textarea name="" id="" cols="30" rows="10" maxlength="200" placeholder="Escribe tu mensaje"></textarea>
                     <button type="submit">Enviar mensaje</button>
                 </form>
-
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Desarrollo por Nazareno Stufano</p>
         <p>2022</p>
     </footer>
