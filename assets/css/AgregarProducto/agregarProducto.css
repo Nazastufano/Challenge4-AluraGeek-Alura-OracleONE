@@ -1,0 +1,27 @@
+.agregar{
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.agregar__formulario{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 508px;
+}
+
+.agregar__titulo {
+    font-weight: bold;
+}
+
+.agregar__input {
+    height: 3rem;
+    width: 500px;
+}
+
+.agregar__boton {
+    width: 100%;
+}

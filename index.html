@@ -8,6 +8,8 @@
     <title>AluraGeek</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Login/login.css">
+    <link rel="stylesheet" href="./assets/css/AgregarProducto/agregarProducto.css">
 </head>
 <body>
     <header class="cabecera">
@@ -156,7 +158,40 @@
                 </div>
             </div>
         </section>
-        <section class="sobre">
+        <section class="login" id="login">
+            <p class="login__titulo">Iniciar Sesión</p>
+            <form class="login__formulario" action="">
+                <label class="formulario__label" for="email">Correo electrónico</label>
+                <input class="formulario__input" name="email" type="email" placeholder="Escriba su correo electrónico">
+                <label class="formulario__label" for="password">Contraseña</label>
+                <input class="formulario__input" name="password" type="password" placeholder="Escriba su contraseña">
+                <button class="formulario__boton boton">Ingresar</button>
+            </form>
+        </section>
+        <section class="agregar">
+            <p class="agregar__titulo">Agregar nuevo producto</p>
+            <form class="agregar__formulario" action="">
+                <label class="agregar__label" for="URL">URL de imagen</label>
+                <input class="agregar__input" name="URL" type="text" placeholder="dataimagen/png...">
+
+                <label class="agregar__label" for="categoria">Categoría</label>
+                <input class="agregar__input" name="categoria" type="text" placeholder="Ej: Consola">
+
+                <label class="agregar__label" for="nombreProducto">Nombre del producto</label>
+                <input class="agregar__input" name="nombreProducto" type="text" placeholder="Producto XYZ">
+
+                <label class="agregar__label" for="precioProducto">Precio del producto</label>
+                <input class="agregar__input" name="precioProducto" type="text" placeholder="$60.00">
+
+                <label class="agregar__label" for="descripcion">Descripcion del producto</label>
+                <input class="agregar__input" name="descripcion" type="text" placeholder="Descripcion del producto">
+
+                <button class="agregar__boton boton">Agregar producto</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__sobre">
             <img src="./assets/img/Logo.png" alt="AluraGeek">
             <div class="sobre__lista">
                 <ul>
@@ -177,10 +212,10 @@
                 </form>
             </div>
         </section>
-    </main>
-    <footer class="footer">
-        <p>Desarrollo por Nazareno Stufano</p>
-        <p>2022</p>
+        <div class="footer__dev">
+            <p>Desarrollo por Nazareno Stufano</p>
+            <p>2022</p>
+        </div>
     </footer>
 </body>
 </html>

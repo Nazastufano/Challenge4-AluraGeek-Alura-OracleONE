@@ -118,7 +118,7 @@ img.cabecera__imagen {
     padding: 0.25rem 0 0.75rem 0;
 }
 
-.sobre{
+.footer__sobre{
     align-items: flex-start;
     background: #EAF2FD;
     display: flex;
@@ -178,7 +178,7 @@ img.cabecera__imagen {
     font-weight: 900;
 }
 
-.footer{
+.footer__dev{
     text-align: center;
     padding: 1.5rem 10%
 }
