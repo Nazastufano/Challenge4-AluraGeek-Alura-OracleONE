@@ -3,16 +3,16 @@ body{
 }
 
 header.cabecera {
+    align-items: center;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
     padding: 1rem 10%;
-    align-items: center;
 }
 
 .cabecera__container {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 img.cabecera__imagen {
@@ -46,12 +46,12 @@ img.cabecera__imagen {
 
 .menu{
     background: url(../img/Hero.png) center;
-    min-height: 300px;
-    min-width: 100%;
     color: white;
     display: flex;
     flex-direction:column;
     justify-content: flex-end;
+    min-height: 300px;
+    min-width: 100%;
     padding-bottom: 25px;
 }
 
@@ -68,10 +68,10 @@ img.cabecera__imagen {
 }
 
 .menu__boton{
-    width: 129px;
     height: 51px;
     margin-left: 10%;
     margin-top: 1rem;
+    width: 129px;
 }
 
 
@@ -101,16 +101,16 @@ img.cabecera__imagen {
 }
 
 .starWars__titulo a, .consolas__titulo a, .diversos__titulo a{
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .starWars__productos, .consolas__productos, .diversos__productos{
     display: flex;
     gap: 10px;
-    min-width: 87%;
     flex-wrap: wrap;
     justify-content: space-between;
+    min-width: 87%;
 }
 
 .productos__box p{
@@ -137,8 +137,8 @@ img.cabecera__imagen {
 .sobre__lista ul{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     gap: 1.5rem;
+    justify-content: space-around;
 }
 
 .sobre__lista a{
@@ -179,6 +179,62 @@ img.cabecera__imagen {
 }
 
 .footer__dev{
-    text-align: center;
     padding: 1.5rem 10%
+    text-align: center;
+}
+
+@media (max-width:1200px){
+    header.cabecera{
+        padding: 1rem 0px;
+    }
+}
+
+@media (max-width:769px) {
+    header.cabecera{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecera__container{
+        flex-direction: column;
+    }
+
+    .cabecera__input{
+        width: 95vw;
+    }
+
+    .cabecera__lupa{
+        display: none;
+    }
+
+    .cabecera__boton{
+        margin-top: 1rem;
+        width: 95vw;
+    }
+
+    .starWars, .consolas, .diversos{
+        padding: inherit;
+    }
+    .starWars__titulo, .consolas__titulo, .diversos__titulo{
+        margin: 3rem 0 1rem 0;
+    }
+
+    .starWars__productos, .consolas__productos, .diversos__productos{
+        gap: 2rem;
+    }
+
+    .footer__sobre{
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .sobre__formulario{
+        margin-top: 2rem;
+        width: 100vw;
+    }
+    
+    .form__boton{
+        width: auto;
+    }
 }

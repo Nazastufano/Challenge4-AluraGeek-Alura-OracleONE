@@ -25,3 +25,17 @@
 .formulario__boton {
     width: 100%;
 }
+
+
+@media (max-width:769px){
+    .formulario__boton{
+        width: 100vw;
+    }
+    
+    .login__formulario{
+        width: 100vw;
+    }
+    .formulario__input{
+        width: 98vw;
+    }
+}

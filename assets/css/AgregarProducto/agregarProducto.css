@@ -25,3 +25,12 @@
 .agregar__boton {
     width: 100%;
 }
+
+@media (max-width:769px){
+    .agregar__formulario{
+        width: 100vw;
+    }
+    .agregar__input{
+        width: 98vw;
+    }
+}
