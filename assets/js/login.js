@@ -1,5 +1,5 @@
-const btn = document.querySelector(".cabecera__boton");
+const logo = document.querySelector("#menuPrincipalLogin");
 
-btn.addEventListener("click", () => {
-    window.location.href = "./assets/screens/login.html"
+logo.addEventListener("click", () => {
+    window.location = "../../index.html";
 });
