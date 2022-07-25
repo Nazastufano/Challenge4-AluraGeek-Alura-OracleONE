@@ -40,6 +40,7 @@ img.cabecera__imagen {
     background: #2a7ae4;
     border: none;
     color: white;
+    cursor: pointer;
     height: 3rem;
     text-align: center;
 }
@@ -160,6 +161,12 @@ img.cabecera__imagen {
     gap: 0.7rem;
 }
 
+.formulario__container {
+    display: flex;
+    flex-direction: column;
+    /* width: 98vw; */
+}
+
 .formulario__form input{
     height: 56px;
 }
@@ -181,6 +188,20 @@ img.cabecera__imagen {
 .footer__dev{
     padding: 1.5rem 10%;
     text-align: center;
+}
+
+/* Estilo Validaciones */
+
+.input-message-error{
+    color: #db5353;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.formcontato__input-incorrecto{
+    border: #bb2929 solid 2px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width:1200px){

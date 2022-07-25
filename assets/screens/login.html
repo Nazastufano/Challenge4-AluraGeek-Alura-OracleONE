@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/Login/login.css">
+    <link rel="stylesheet" href="../css/AgregarProducto/agregarProducto.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="cabecera__container">
+            <img class="cabecera__imagen" id="menuPrincipalLogin" src="../img/Logo.png" alt="AluraGeek">
+            <input class="cabecera__input" type="text" placeholder="¿Qué deseas buscar?">
+            <img class="cabecera__lupa" src="../img/bx-search-alt-2.png" alt="Lupa">
+        </div>
+    </header>
+    <main>
+        <section class="login" id="login">
+            <p class="login__titulo">Iniciar Sesión</p>
+            <form class="login__formulario" action="">
+                <div class="formulario__container">
+                    <label class="formulario__label" for="email">Correo electrónico</label>
+                    <input class="formulario__input" name="email" type="email"  placeholder="Escriba su correo electrónico" data-tipo="email" pattern="^\w+([\.\+\-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$" required>
+                    <span class="input-message-error"></span>
+                </div>
+                <div class="formulario__container">
+                    <label class="formulario__label" for="password">Contraseña</label>
+                    <input class="formulario__input" name="password" type="password" placeholder="Escriba su contraseña" data-tipo="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales.">
+                    <span class="input-message-error"></span>
+                </div>
+                <button class="formulario__boton boton" type="submit">Ingresar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__sobre">
+            <img src="../img/Logo.png" alt="AluraGeek">
+            <div class="sobre__lista">
+                <ul>
+                    <li><a href="">Quienes somos</a></li>
+                    <li><a href="">Politica de Privacidad</a></li>
+                    <li><a href="">Progrma de fidelidad</a></li>
+                    <li><a href="">Nuestras Tiendas</a></li>
+                    <li><a href="">Quiero ser franquiado</a></li>
+                    <li><a href="">Anúncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="sobre__formulario">
+                <p class="formulario__texto">Hable con nosotros</p>
+                <form class="formulario__form" action="">
+                    <div class="formulario__container">
+                        <input class="container__input" type="text" name="nombre" placeholder="Nombre" required maxlength="40" data-tipo="nombre">
+                        <span class="input-message-error"></span>
+                    </div>
+                    <div class="formulario__container">
+                        <textarea class="container__textarea" name="texto" id="" cols="30" rows="10" maxlength="200" placeholder="Escribe tu mensaje" required data-tipo="texto"></textarea>
+                        <span class="input-message-error"></span>
+                    </div>
+                    <button class="form__boton boton" type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+        <div class="footer__dev">
+            <p>Desarrollo por Nazareno Stufano</p>
+            <p>2022</p>
+        </div>
+    </footer>
+    
+    <script type="module" src="../js/validaciones.js"></script>
+    <script type="module" src="../js/login.js"></script>
+    <script src="../js/menu.js"></script>
+    <script type="module" src="../js/app.js"></script>
+</body>
+</html>
