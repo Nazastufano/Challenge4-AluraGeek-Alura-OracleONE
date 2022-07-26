@@ -16,3 +16,12 @@ function validarTextarea(textarea){
         valida(textarea.target);
     });
 }
+
+const select = document.querySelector("select");
+validarSelect(select);
+
+function validarSelect(select){
+    select.addEventListener("blur", (select) => {
+        valida(select.target);
+    });
+};

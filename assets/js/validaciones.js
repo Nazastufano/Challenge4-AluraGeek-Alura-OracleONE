@@ -1,6 +1,10 @@
 export function valida(input){
     const tipoDeInput = input.dataset.tipo;
 
+    if (validadores[tipoDeInput]) {
+        validadores[tipoDeInput](input);
+    }    
+
     if(input.validity.valid){
         input.classList.remove("formcontato__input-incorrecto");
         input.parentElement.querySelector(".input-message-error").innerHTML = "";
@@ -16,6 +20,7 @@ const tipoDeErrores = [
     "valueMissing",
     "typeMismatch",
     "patternMismatch",
+    "customError",
 ];
 
 const mensajeDeError = {
@@ -37,9 +42,38 @@ const mensajeDeError = {
         valueMissing: "El campo contraseña no puede estar vacío",
         patternMismatch:
           "Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales.",
-      },
+    },
+    nombreProducto:{
+        valueMissing: "Debe ingresar el nombre del producto",
+    },
+    img: {
+        valueMissing: "Debe ingresar una imagen",
+    },
+    lista: {
+        valueMissing: "Debe seleccionar una categoría",
+        customError: "Debe seleccionar una categoría",
+    },
+    numero: {
+        valueMissing: "Debe ingresar el precio del producto",
+        patternMismatch: "El precio ingresado no es válido",
+    },
+    descripcion: {
+        valueMissing: "Debe ingresar una descripción",
+    },
+
 }
 
+const validadores = {
+    lista: (input) => validarLista(input),
+};
+
+export const validarLista = (input) => {
+    let mensaje = "";
+    if (input.value == 0){
+        mensaje = "Debes seleccionar una categoría";
+    }
+    input.setCustomValidity(mensaje);
+}
 
 function mostrarMensajeDeError(tipoDeInput, input){
     let mensaje = "";

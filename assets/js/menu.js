@@ -7,5 +7,6 @@ botonConsolas.addEventListener("click", () => {
 const botonLogin = document.querySelector(".cabecera__boton");
 
 botonLogin.addEventListener("click", () => {
-    window.location.href = "./assets/screens/login.html"
+    window.location.replace("./assets/screens/login.html");
 });
+

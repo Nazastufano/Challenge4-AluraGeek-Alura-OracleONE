@@ -19,6 +19,10 @@ img.cabecera__imagen {
     margin-right: 2rem;
 }
 
+.img__click{
+    cursor: pointer;
+}
+
 .cabecera__input{
     background: #f5f5f5;
     border-radius: 20px;
@@ -167,6 +171,10 @@ img.cabecera__imagen {
     /* width: 98vw; */
 }
 
+select.agregar__input.select {
+    width: 508px;
+}
+
 .formulario__form input{
     height: 56px;
 }
@@ -241,7 +249,7 @@ img.cabecera__imagen {
     }
 
     .starWars__productos, .consolas__productos, .diversos__productos{
-        gap: 2rem;
+        gap: .5rem;
     }
 
     .footer__sobre{

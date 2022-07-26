@@ -1,6 +1,6 @@
 .agregar{
     align-items: center;
-    display: none;
+    display: flex;
     flex-direction: column;
     font-size: 18px;
 }
@@ -30,7 +30,7 @@
     .agregar__formulario{
         width: 100vw;
     }
-    .agregar__input{
+    .agregar__input, select.agregar__input.select{
         width: 98vw;
     }
 }
