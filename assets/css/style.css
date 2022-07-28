@@ -123,6 +123,36 @@ img.cabecera__imagen {
     padding: 0.25rem 0 0.75rem 0;
 }
 
+.box__imagenes{
+    height: 185px;
+    width: 185px;
+}
+
+.box__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container__boton{
+    height: 1.75rem;
+    width: 45%;
+}
+
+.container__boton.editar{
+    background-color: #2A7AE4;
+    border: transparent solid;
+    border-radius: 5px;
+    color: white;
+}
+
+.container__boton.eliminar{
+    background-color: #bb2929;
+    border: transparent solid;
+    border-radius: 5px;
+    color: white;
+}
+
 .footer__sobre{
     align-items: flex-start;
     background: #EAF2FD;

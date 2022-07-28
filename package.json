@@ -1,0 +1,12 @@
+{
+    "name": "E-Commerce",
+    "version": "1.0.0",
+    "description": "productos-servicios.js",
+    "main": "",
+    "scripts": {
+        "start": "node productos-servicios"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

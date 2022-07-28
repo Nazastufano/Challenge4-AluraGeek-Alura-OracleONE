@@ -47,6 +47,110 @@
       "id": "6",
       "seccion": "StarWars",
       "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Joystick_XBox.png",
+      "precio": "$60,00",
+      "nombre": "Joystick X-Box",
+      "id": "7",
+      "seccion": "Consolas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Consol_PS5.png",
+      "precio": "$60,00",
+      "nombre": "Play Station 5",
+      "id": "8",
+      "seccion": "Consolas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Consola_NitendoNES.png",
+      "precio": "$60,00",
+      "nombre": "Consola NES",
+      "id": "9",
+      "seccion": "Consolas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Joystick_Switch.png",
+      "precio": "$60,00",
+      "nombre": "Joystick de Switch",
+      "id": "10",
+      "seccion": "Consolas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Consola_XboxSX.png",
+      "precio": "$60,00",
+      "nombre": "X-Box Series X",
+      "id": "11",
+      "seccion": "Consolas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Game_Boy_Color.png",
+      "precio": "$60,00",
+      "nombre": "Game Boy Color",
+      "id": "12",
+      "seccion": "Consolas",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Camiseta_Atari.png",
+      "precio": "$60,00",
+      "nombre": "Camiseta Atari",
+      "id": "13",
+      "seccion": "Diversos",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Camiseta_SNES.png",
+      "precio": "$60,00",
+      "nombre": "Camiseta SNES",
+      "id": "14",
+      "seccion": "Diversos",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Figura_Sonic.png",
+      "precio": "$60,00",
+      "nombre": "Figura de Sonic",
+      "id": "15",
+      "seccion": "Diversos",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Reloj.png",
+      "precio": "$60,00",
+      "nombre": "Reloj",
+      "id": "16",
+      "seccion": "Diversos",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Casco_VR.png",
+      "precio": "$60,00",
+      "nombre": "Casco de VR",
+      "id": "16",
+      "seccion": "Diversos",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Traje_Pikachu.png",
+      "precio": "$60,00",
+      "nombre": "Traje Pikachu",
+      "id": "16",
+      "seccion": "Diversos",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "nombre": "hola",
+      "url": "https://www.bing.com/th?id=OIP.SEMmRmSiaiTf1W8q53QkVAHaGl&w=111&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+      "precio": "1",
+      "descripcion": "asd",
+      "seccion": "3",
+      "id": "4c55d698-b12b-49dc-bd98-6155235fb83d"
     }
   ]
 }

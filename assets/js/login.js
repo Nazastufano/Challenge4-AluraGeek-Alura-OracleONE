@@ -18,7 +18,7 @@ botonIniciar.addEventListener("click", (event) => {
     const contraseña = document.querySelector("#formPassword").value;  
 
     if(mail == usuario.mail && contraseña == usuario.contraseña){
-        window.location.replace("././menu-admin.html");
+        window.location.replace("../../menu-admin.html");
     } else if(mail != "" && contraseña != ""){
         error.innerHTML = "El mail y/o la contraseña ingresados no son válidos";
     }

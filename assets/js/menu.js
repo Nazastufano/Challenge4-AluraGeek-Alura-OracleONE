@@ -10,3 +10,13 @@ botonLogin.addEventListener("click", () => {
     window.location.replace("./assets/screens/login.html");
 });
 
+const a = document.querySelectorAll(".verProducto");
+
+a.forEach(element => {
+    element.addEventListener("click", (e) => {
+        console.log(e.composed);
+        console.log(e.composedPath());
+    })
+})
+
+
