@@ -1,8 +1,8 @@
 {
     "name": "E-Commerce",
     "version": "1.0.0",
-    "description": "productos-servicios.js",
-    "main": "",
+    "description": "",
+    "main": "productos-servicios.js",
     "scripts": {
         "start": "node productos-servicios"
     },
