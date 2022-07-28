@@ -2,9 +2,9 @@
     "name": "E-Commerce",
     "version": "1.0.0",
     "description": "",
-    "main": "productos-servicios.js",
+    "main": "db.json",
     "scripts": {
-        "start": "node productos-servicios"
+        "start": "node db.json"
     },
     "keywords": [],
     "author": "",
