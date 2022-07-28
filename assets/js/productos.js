@@ -14,7 +14,6 @@ const agregar = document.querySelector(".agregar__boton");
 agregar.addEventListener("click", (event) => {
     event.preventDefault;
     validarBoton();
-
 });
 
 function validarBoton(){
@@ -30,7 +29,8 @@ function validarBoton(){
     select.addEventListener("blur", () => {
         if(select.value != 0){
             agregar.disabled = false;
-            console.log("Hecho");
+            console.log("Hecho", select.value);
+            return select.value
         }
     });
 }

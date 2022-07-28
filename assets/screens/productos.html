@@ -22,7 +22,7 @@
     <main>
         <section class="agregar">
             <p class="agregar__titulo">Agregar nuevo producto</p>
-            <form class="agregar__formulario" action="" enctype="multipart/form-data">
+            <form class="agregar__formulario" action="" enctype="multipart/form-data" data-form>
                 <div class="formulario__container">
                     <label class="agregar__label" for="categoria">Categoría</label>
                     <select class="agregar__input select" required name="categoria" type="text" data-tipo="lista" placeholder="Ej: Consola">
@@ -54,7 +54,7 @@
 
                 <div class="formulario__container">
                     <label class="agregar__label" for="URL">URL de imagen</label>
-                    <input class="agregar__input" required name="URL" type="file" data-tipo="img" placeholder="dataimagen/png...">
+                    <input class="agregar__input" required name="URL" type="text" data-tipo="img" placeholder="dataimagen/png...">
                     <span class="input-message-error"></span>
                 </div>
 
@@ -95,9 +95,10 @@
             <p>2022</p>
         </div>
     </footer>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="../js/validaciones.js"></script>
     <script type="module" src="../js/productos.js"></script>
     <script type="module" src="../js/app.js"></script>
+    <script type="module" src="../controllers/crear-productos-controller.js"></script>
 </body>
 </html>

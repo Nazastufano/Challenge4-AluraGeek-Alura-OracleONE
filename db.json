@@ -1,0 +1,52 @@
+{
+  "producto": [
+    {
+      "url": "./assets/img/Tasa_Casco.png",
+      "precio": "$60,00",
+      "nombre": "Tasa casco Clon",
+      "id": "1",
+      "seccion": "StarWars",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Cascos_Lego.png",
+      "precio": "$60,00",
+      "nombre": "Cascos de LEGO",
+      "id": "2",
+      "seccion": "StarWars",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Figura_Yoda.png",
+      "precio": "$60,00",
+      "nombre": "Figura de Yoda",
+      "id": "3",
+      "seccion": "StarWars",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Figura_Clon.png",
+      "precio": "$60,00",
+      "nombre": "Figura de Clon",
+      "id": "4",
+      "seccion": "StarWars",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Mini_Yoda.png",
+      "precio": "$60,00",
+      "nombre": "Figura Baby Yoda",
+      "id": "5",
+      "seccion": "StarWars",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    },
+    {
+      "url": "./assets/img/Figura_Kylo_Ren.png",
+      "precio": "$60,00",
+      "nombre": "Figura Kylo Ren",
+      "id": "6",
+      "seccion": "StarWars",
+      "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere accusantium ullam animi labore aliquid fugit dicta, id ad natus deserunt impedit magni veritatis, fugiat necessitatibus quo commodi ea blanditiis nostrum! Recusandae repudiandae obcaecati asperiores exercitationem ducimus nesciunt quo. Voluptas hic facere officia magnam nulla voluptatem recusandae tempora sed incidunt dolor!"
+    }
+  ]
+}
