@@ -23,8 +23,43 @@ const creaProducto = (nombre, url, precio, descripcion, seccion, id) => {
     })
 }
 
+const eliminarProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+        method: "DELETE"
+    })
+}
+
+const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) => respuesta.json());
+}
+
+const seccionProductos = (seccion) => {
+    return fetch(`http://localhost:3000/producto/?seccion=${seccion}`).then((respuesta) => respuesta.json());
+}
+
+const nombreProducto = (nombre) => {
+    return fetch(`http://localhost:3000/producto/?nombre=${nombre}`).then((respuesta) => respuesta.json());
+}
+
+const actualizarProducto = (nombre, precio, descripcion, seccion, url, id) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({nombre, precio, descripcion, seccion, url})
+    })
+    .then((respuesta) => respuesta)
+    .catch((err) => console.log(err));
+}
+
 export const productoServices = {
     listaProductos,
-    creaProducto
+    creaProducto,
+    eliminarProducto,
+    detalleProducto,
+    actualizarProducto,
+    seccionProductos,
+    nombreProducto,
 }
 

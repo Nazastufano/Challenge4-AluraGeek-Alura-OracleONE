@@ -13,43 +13,19 @@
 </head>
 <body>
     <header class="cabecera">
-        <div class="cabecera__container">
-            <img class="cabecera__imagen" src="./assets/img/Logo.png" alt="AluraGeek">
-            <input class="cabecera__input" type="search" placeholder="¿Qué deseas buscar?">
+        <div class="cabecera__container img__click">
+            <img class="cabecera__imagen" id="menuPrincipalLogin" src="./assets/img/Logo.png" alt="AluraGeek">
+            <input class="cabecera__input" type="text" placeholder="¿Qué deseas buscar?">
             <img class="cabecera__lupa" src="./assets/img/bx-search-alt-2.png" alt="Lupa">
         </div>
-        <button class="boton cabecera__boton">Login</button>
     </header>
     <main>
-        <section class="menu">
-            <h1 class="menu__titulo">Febrero Promocional</h1>
-            <p class="menu__texto">Productos seleccionados con 33% de descuento</p>
-            <button class="menu__boton boton">Ver Consolas</a></button>
-        </section>
         <section class="starWars">
             <div class="starWars__titulo">
-                <h2>Star Wars</h2>
-                <a href="./ver-mas.html?seccion=1">Ver todo<img src="./assets/img/bx-right-arrow-alt.png" alt="Flecha"></a>
+                <h2>Todos los productos</h2>
             </div>
+
             <div class="starWars__productos" datos-productos>
-            </div>  
-        </section>
-        <section class="consolas" id="consolas">
-            <div class="consolas__titulo">
-                <h2>Consolas</h2>
-                <a href="./ver-mas.html?seccion=2">Ver todo<img src="./assets/img/bx-right-arrow-alt.png" alt="Flecha"></a>
-            </div>
-            <div class="consolas__productos" datos-productos>
-                
-            </div>
-        </section>
-        <section class="diversos">
-            <div class="diversos__titulo">
-                <h2>Diversos</h2>
-                <a href="./ver-mas.html?seccion=3">Ver todo<img src="./assets/img/bx-right-arrow-alt.png" alt="Flecha"></a>
-            </div>
-            <div class="diversos__productos" datos-productos>
-                
             </div>
         </section>
     </main>
@@ -87,12 +63,9 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./assets/controllers/seccion-controller.js"></script>
     <script type="module" src="./assets/js/validaciones.js"></script>
-    <script src="./assets/js/menu.js"></script>
-    <script type="module" src="./assets/controllers/busqueda-controller.js"></script>
-    <script type="module" src="./assets/js/search.js"></script>
+    <script type="module" src="./assets/js/ver-mas.js"></script>
     <script type="module" src="./assets/js/app.js"></script>
-    <script type="module" src="./assets/controllers/productos-controller.js"></script>
-    <script type="module" src="./assets/services/productos-servicios.js"></script>
 </body>
 </html>

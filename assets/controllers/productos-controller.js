@@ -1,25 +1,34 @@
 import { productoServices } from "../services/productos-servicios.js";
 
-const nuevoProducto = (nombre, precio, url) =>{
+const cargarProducto = (nombre, precio, url, id) => {
     const card = document.createElement("div");
     const contenido = `
-        <img src="${url}" alt="Producto" class="box__imagenes">
-        <p>${nombre}</p>
-        <p>${precio}</p>
-        <a href="">Ver producto</a>
-        `;
+    <img src="${url}" alt="Producto" class="box__imagenes">
+    <p>${nombre}</p>
+    <p>$${precio}</p>
+    <a href="./assets/screens/ver-producto.html?id=${id}">Ver producto</a>
+    `;
     card.innerHTML = contenido;
     card.classList.add("productos__box");
     return card;
 }
 
-const productos = document.querySelector("[datos-productos]");
+const starWars = document.querySelector(".starWars__productos");
+const consolas = document.querySelector(".consolas__productos");
+const diversos = document.querySelector(".diversos__productos");
 
 const render = async () => {
     try {
         const listaProductos = await productoServices.listaProductos();
         listaProductos.forEach(elemento => {
-            productos.appendChild(nuevoProducto(elemento.nombre, elemento.precio, elemento.url));
+            if(elemento.seccion == "StarWars" || elemento.seccion == 1){ 
+                starWars.appendChild(cargarProducto(elemento.nombre, elemento.precio, elemento.url, elemento.id));
+            } else if (elemento.seccion == "Consolas" || elemento.seccion == 2){
+                consolas.appendChild(cargarProducto(elemento.nombre, elemento.precio, elemento.url, elemento.id));
+            } else {
+                diversos.appendChild(cargarProducto(elemento.nombre, elemento.precio, elemento.url, elemento.id));
+            }
+            
         });
     }
     catch(erro) {
@@ -29,9 +38,6 @@ const render = async () => {
 
 render();
 
-/*
-<div class="box__container">
-    <button class="container__boton editar">Editar</button>
-    <button class="container__boton eliminar">Eliminar</button>
-</div>
-*/
+
+
+
