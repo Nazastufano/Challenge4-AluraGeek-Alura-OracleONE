@@ -3,7 +3,7 @@ import { productoServices } from "../services/productos-servicios.js";
 const url = new URL(window.location);
 const search = url.searchParams.get('search');
 
-const inputSearch = search;
+const inputSearch = search.toLocaleLowerCase();
 
 const cargarProducto = (nombre, precio, url, id) => {
     const card = document.createElement("div");
