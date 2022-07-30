@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/img/Vector.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
     <title>AluraGeek</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/Login/login.css">
+    <link rel="stylesheet" href="./assets/css/VerProducto/verProducto.css">
     <link rel="stylesheet" href="./assets/css/AgregarProducto/agregarProducto.css">
 </head>
 <body>
     <header class="cabecera">
         <div class="cabecera__container img__click">
             <img class="cabecera__imagen" id="menuPrincipalLogin" src="./assets/img/Logo.png" alt="AluraGeek">
+            <input class="cabecera__input" type="text" placeholder="¿Qué deseas buscar?">
+            <img class="cabecera__lupa" src="./assets/img/bx-search-alt-2.png" alt="Lupa">
         </div>
     </header>
     <main>
         <section class="starWars">
             <div class="starWars__titulo">
-                <h2>Todos los productos</h2>
-                <button class="boton" id="agregarProducto">Agregar producto</button>
+                <h2></h2>
             </div>
 
             <div class="starWars__productos" datos-productos>
+            </div>
+        </section>
+        <section class="consolas">
+            <div class="consolas__titulo">
+                <h2>Productos similares</h2>
+            </div>
+
+            <div class="consolas__productos">
             </div>
         </section>
     </main>
@@ -66,9 +76,10 @@
             <p>2022</p>
         </div>
     </footer>
-    <script type="module" src="./assets/controllers/productos-controller-admin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./assets/controllers/ver-producto-controller.js"></script>
     <script type="module" src="./assets/js/validaciones.js"></script>
-    <script type="module" src="./assets/js/menu-admin.js"></script>
+    <script type="module" src="./assets/js/ver-mas.js"></script>
     <script type="module" src="./assets/js/app.js"></script>
 </body>
 </html>

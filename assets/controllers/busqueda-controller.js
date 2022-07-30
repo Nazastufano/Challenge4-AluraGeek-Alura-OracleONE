@@ -1,10 +1,9 @@
 import { productoServices } from "../services/productos-servicios.js";
 
+const url = new URL(window.location);
+const search = url.searchParams.get('search');
 
-const h2 = document.querySelector(".titulo__h2");
-const inputSearch = document.querySelector('.cabecera__input').value;
-
-h2.innerHTML = `Resultados de "${inputSearch}"`
+const inputSearch = search;
 
 const cargarProducto = (nombre, precio, url, id) => {
     const card = document.createElement("div");
@@ -12,7 +11,7 @@ const cargarProducto = (nombre, precio, url, id) => {
     <img src="${url}" alt="Producto" class="box__imagenes">
     <p>${nombre}</p>
     <p>$${precio}</p>
-    <a href="./assets/screens/ver-producto.html?id=${id}">Ver producto</a>
+    <a href="./ver-producto.html?id=${id}">Ver producto</a>
     `;
     card.innerHTML = contenido;
     card.classList.add("productos__box");
@@ -20,17 +19,19 @@ const cargarProducto = (nombre, precio, url, id) => {
 }
 
 const obtenerBusqueda = async () => {
-    const url = new URL(window.location);
-    const nombre = url.searchParams.get("nombre");
-
     try{
-        const nombreResultado = await productoServices.nombreProducto(nombre);
+        const nombreResultado = await productoServices.listaProductos();
+
         if(true){
+            const h2 = document.querySelector(".titulo__h2");
+            h2.innerHTML = `Resultados de "${search}"`
             const busqueda = document.querySelector("[datos-productos]");
-            console.log(nombreResultado, inputSearch);
+
 
             nombreResultado.forEach(elemento => {
-                busqueda.appendChild(cargarProducto(elemento.nombre, elemento.precio, elemento.url, elemento.id));
+                if(elemento.nombre.toLowerCase().includes(inputSearch)){
+                    busqueda.appendChild(cargarProducto(elemento.nombre, elemento.precio, elemento.url, elemento.id));
+                }
             });
 
         }else{
@@ -43,3 +44,4 @@ const obtenerBusqueda = async () => {
 }
 
 obtenerBusqueda();
+

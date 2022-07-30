@@ -7,7 +7,7 @@ const cargarProducto = (nombre, precio, url, id) => {
     <img src="${url}" alt="Producto" class="box__imagenes">
     <p>${nombre}</p>
     <p>$${precio}</p>
-    <a href="./assets/screens/ver-producto.html?id=${id}">Ver producto</a>
+    <a href="./ver-producto.html?id=${id}">Ver producto</a>
     `;
     card.innerHTML = contenido;
     card.classList.add("productos__box");

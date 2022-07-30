@@ -1,5 +1,3 @@
-import { valida, validarLista } from "./validaciones.js";
-
 const logo = document.querySelector(".cabecera__imagen");
 
 logo.addEventListener("click", () => {
@@ -33,12 +31,4 @@ function validarBoton(){
             return select.value
         }
     });
-}
-
-
-function validar(){
-    //revise el valor de select
-    //si el select es igual a 0 negar el boton
-    //si el select es diferente a 0 habilitar el boton
-    //se debe habiliar cada vez que se haga blur en un input
 }

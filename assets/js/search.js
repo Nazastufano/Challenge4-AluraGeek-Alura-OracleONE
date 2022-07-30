@@ -3,7 +3,7 @@ const inputSearch = document.querySelector('.cabecera__input');
 
 const searchProduct = () => {
     if(inputSearch.value){
-        window.location.href = `search.html?nombre=${inputSearch.value}`;
+        window.location.href = `search.html?search=${inputSearch.value}`;
     }
 }
 

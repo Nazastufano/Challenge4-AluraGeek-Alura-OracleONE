@@ -1,0 +1,88 @@
+.box__imagen{
+    height: 300px;
+    width: 400px;
+}
+
+.productos__box--verMas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    width: 45vw;
+}
+
+.box__descripcion{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 4rem;
+}
+
+.productos__box--verMas h1{
+    font-size: 38px;
+    font-weight: 600;
+}
+.productos__box--verMas h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width:920px) {
+    .productos__box--verMas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: unset;
+        height: auto;
+        width: auto;
+    }
+    .box__descripcion {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:769px) {
+    .box__imagen{
+        height: 300px;
+        margin: 0 0 0 15vw;
+        width: 70vw;
+    }
+    .productos__box--verMas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: unset;
+        height: auto;
+        width: auto;
+    }
+    .box__descripcion{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:600px) {
+    .box__imagen{
+        text-align: center;
+        height: 300px;
+        margin: 0 0 0 0;
+        width: 100vw;
+    }
+    .productos__box--verMas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: unset;
+        height: auto;
+        width: auto;
+    }
+    .box__descripcion{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 0px;
+    }
+}
