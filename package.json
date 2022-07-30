@@ -2,9 +2,10 @@
   "name": "ecommerce_alura",
   "version": "1.0.0",
   "description": "Se trata de un e-commerce desarrollado a base de las condiciones propuestas en el Challenge N°4 de Alura. Forma parte del programa ONE de Oracle.",
-  "main": "productos-servicios.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node productos-servicios.js",
+    "server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
