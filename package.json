@@ -1,0 +1,22 @@
+{
+    "name": "ecommerce_alura",
+    "version": "1.0.0",
+    "description": "",
+    "main": "productos-servicios.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Nazastufano/Challenge4-AluraGeek-Alura-OracleONE"
+    },
+    "author": "Nazareno Stufano",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Nazastufano/Challenge4-AluraGeek-Alura-OracleONE/issues"
+    },
+    "homepage": "https://github.com/Nazastufano/Challenge4-AluraGeek-Alura-OracleONE#readme",
+    "dependencies": {
+      "json-server": "^0.17.0"
+    }
+  }
