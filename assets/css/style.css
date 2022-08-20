@@ -21,6 +21,11 @@ img.cabecera__imagen {
     margin-right: 2rem;
 }
 
+.cabecera__imagen:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 .img__click{
     cursor: pointer;
 }
@@ -49,6 +54,12 @@ img.cabecera__imagen {
     cursor: pointer;
     height: 3rem;
     text-align: center;
+}
+
+.boton:hover{
+    box-shadow: 0 0 40px 40px #003781 inset;
+    color: white;
+    transition: box-shadow 0.4s ease-in-out;
 }
 
 .menu{
@@ -257,6 +268,11 @@ select.agregar__input.select {
     background-color: #fff;
     padding: 1.5rem 10%;
     text-align: center;
+}
+
+.footer__dev img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 /* Estilo Validaciones */
