@@ -315,6 +315,7 @@ select.agregar__input.select {
 
     .starWars__productos, .consolas__productos, .diversos__productos{
         gap: .5rem;
+        justify-content: space-evenly;
     }
 
     .footer__sobre{
