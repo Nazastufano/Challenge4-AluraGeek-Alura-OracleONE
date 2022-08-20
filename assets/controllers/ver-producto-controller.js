@@ -1,4 +1,5 @@
 import { productoServices } from "../services/productos-servicios.js";
+import { cargarProducto } from "../js/cargarProducto.js";
 
 const verProducto = (nombre, precio, url, seccion, descripcion, id) => {
     const card = document.createElement("div");
@@ -37,20 +38,7 @@ const render = async () => {
 
 render();
 
-////////////////// Funcion para generar los productos similares //////////////////
-
-const cargarProducto = (nombre, precio, url, id) => {
-    const card = document.createElement("div");
-    const contenido = `
-    <img src="${url}" alt="Producto" class="box__imagenes">
-    <p>${nombre}</p>
-    <p>$${precio}</p>
-    <a href="./ver-producto.html?id=${id}">Ver producto</a>
-    `;
-    card.innerHTML = contenido;
-    card.classList.add("productos__box");
-    return card;
-}
+////////////////// Funcion para generar los productos similares ////////////////// 
 
 const consolas = document.querySelector(".consolas__productos");
 

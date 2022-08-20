@@ -1,18 +1,5 @@
 import { productoServices } from "../services/productos-servicios.js";
-
-
-const cargarProducto = (nombre, precio, url, id) => {
-    const card = document.createElement("div");
-    const contenido = `
-    <img src="${url}" alt="Producto" class="box__imagenes">
-    <p>${nombre}</p>
-    <p>$${precio}</p>
-    <a href="./ver-producto.html?id=${id}">Ver producto</a>
-    `;
-    card.innerHTML = contenido;
-    card.classList.add("productos__box");
-    return card;
-}
+import { cargarProducto } from "../js/cargarProducto.js";
 
 const obtenerSeccion = async () => {
     const url = new URL(window.location);

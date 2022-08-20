@@ -1,9 +1,11 @@
 body{
     font-family: Raleway;
+    background-color: #ebebeb;
 }
 
 header.cabecera {
     align-items: center;
+    background-color: #ffffff;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
@@ -117,6 +119,20 @@ img.cabecera__imagen {
     justify-content: space-between;
     min-width: 87%;
 }
+.productos__box {    
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.productos__box:hover {
+    border-radius: 3px;
+    box-shadow: 8px 8px 25px grey;
+    transform: scale(1.025);
+    transition: .3s;
+}
 
 .productos__box p{
     font-weight: 900;
@@ -126,6 +142,18 @@ img.cabecera__imagen {
 .box__imagenes{
     height: 185px;
     width: 185px;
+}
+
+.box__texto{
+    /*border: 1px solid darkgrey;*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px;
+    width: 99%;
+}
+
+.box__texto p, .box__texto a{
+    margin-left: 9px;
 }
 
 .box__container{
@@ -224,6 +252,7 @@ select.agregar__input.select {
 }
 
 .footer__dev{
+    background-color: #fff;
     padding: 1.5rem 10%;
     text-align: center;
 }
