@@ -66,12 +66,14 @@ img.cabecera__imagen {
     font-size: 52px;
     margin: 0;
     margin-left: 10%;
+    text-shadow: 2px 2px 2px black;
 }
 
 .menu__texto{
     font-size: 22px;
     margin-left: 10%;
     margin-top: 0.5rem;
+    text-shadow: 2px 2px 2px black;
 }
 
 .menu__boton{
